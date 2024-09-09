@@ -8,9 +8,13 @@
 	font-size: large;
 }
 .Position{
-margin-left: 50%;
+margin-left: 63%;
 display: flex;
 }
 h3{
 	color: orange;
+	margin-left: 30%;
+}
+.frist{
+	margin-left: 2%;
 }
