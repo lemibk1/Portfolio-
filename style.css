@@ -18,3 +18,13 @@ h3{
 .frist{
 	margin-left: 2%;
 }
+body{
+	background-image: url("./image.png");
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-position-x: 90%;
+	
+}
+#iconSize {
+	size: 30px;
+}
