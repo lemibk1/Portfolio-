@@ -13,10 +13,12 @@ display: flex;
 }
 h3{
 	color: orange;
-	margin-left: 30%;
+	margin-left: 25%;
+	font-size: 24px;
 }
 .frist{
 	margin-left: 2%;
+	font-size: 20px;
 }
 .Portfolio{
 	background-image: url("./background.png");
@@ -61,4 +63,40 @@ margin-left: 50px;
 	padding: 10px;
 	border-color: black;
 	font-size: 16px;
+}
+#about-header{
+	
+color: orange;
+font-size: 35px;
+font-weight: 600;
+margin-left: 30% ;
+}
+#languages{
+	color: orange;
+font-size: 35px;
+font-weight: 600;
+margin-left: 89% ;
+}
+.About-section{
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+
+}
+.about-text{
+	font-size: 27px;
+}
+.language-list{
+display: flex;
+flex-direction: row;
+margin-top: 20px;
+margin-left: 80%;
+}
+#centre{
+	margin-left: 20%;
+	
+}
+#centre img{
+	padding-left: 30px;
 }
