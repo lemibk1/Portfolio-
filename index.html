@@ -11,9 +11,9 @@
 	<section id="sticky">
 		<div class="section1">
 			<span>lemibk</span>
-			<div class="Position"><span id="Totheleft">About</span>
-		<span id="Totheleft">Projects</span>
-		<span id="Totheleft">Contact</span>
+			<div class="Position"><a href="#about-header"><span id="Totheleft">About</span></a>
+		<a href="#center"><span id="Totheleft">Projects</span></a>
+		<a href="#contact"><span id="Totheleft">Contact</span></a>
 	</div>
 			
 	 </div>
@@ -100,21 +100,22 @@ don’t hesitate to contact me. </span><br>
 		<img src="./git.svg" alt="git"></div>
 </div>
 
-</div>
-<div class="contact-section">
-<form action="">
-<h1>Contact-me</h1>
+</div><form action="">
+<div class="contact-section" id="contact">
 
-<div class="contact-element">
-<input type="text" placeholder="Name" >
-<input type="email" placeholder="Enter your email" >
-<input type="text" id="message" placeholder="Enter your Message" >
-<input type="submit" id="submit" value="Submit">
+
+
+<div class="contact-element"><h1>Contact-me</h1>
+<input type="text" placeholder="Name"  required>
+<input type="email" placeholder="Enter your email" required oninput="this.value = this.value.toLowerCase();">
+<input type="text" id="message" placeholder="Enter your Message" required>
+<input type="submit" id="submit" value="Send">
+
 
 	</div>
-</form>
-</div>
 
+</div>
+</form>
 </body>
 
 </html>
